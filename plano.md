@@ -26,6 +26,15 @@
 ### Orçamento total 4 DOF (motores + drivers) ≈ R$1850-2200
 + estrutura impressa, rolamentos, garra, fonte. 6 DOF completo = sobe pra cima disso (dARM gasta ~US$1600 só em motores+ODrive).
 
+## Links e compras — AliExpress + vídeo (preços de 04/10/2026)
+- **Vídeo de referência do driver** (Justlovescience, "Robotics on a Budget" — MKS XDRIVE Mini como ODrive barato): https://youtu.be/yRx7dsJmNvU · GitHub: https://github.com/justlovescience/MKS-XDRIVE-MINI
+- **Fase 1 — Motor Eaglepower 8308 KV180** (R$369,99 + ~R$159 impostos ≈ R$530): https://pt.aliexpress.com/item/1005005084172325.html
+- **Fase 1 — Driver MKS XDRIVE Mini** (R$204,69 + ~R$51 impostos ≈ R$256): https://pt.aliexpress.com/item/1005006480243178.html
+- Alt — ME7010 flat alto torque (R$172,59; fraco p/ ombro — serviria p/ pulso): https://pt.aliexpress.com/item/1005009462970916.html
+- Alt — Gimbal Makerbase 2804/5010 + AS5600 (R$46,69; pulso): https://pt.aliexpress.com/item/1005012729644704.html
+- Alt — Kit FOC 2804 rotor externo + Hall (R$96,79): https://pt.aliexpress.com/item/1005012849384154.html
+- **Impostos:** item abaixo de US$50 = só ICMS ~17%; acima de US$50 = +60% imp. importação (desconto US$30).
+
 ## Software stack
 - **odrivetool** (config/lookup do motor, pole pairs, encoder calibração).
 - ROS2 packages: `odriverobotics/ros_odrive` (`odrive_node` + `odrive_ros2_control`), por USB ou CAN.
